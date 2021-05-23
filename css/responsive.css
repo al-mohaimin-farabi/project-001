@@ -1,0 +1,241 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {  
+  
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+
+}
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+/*********** HEADER CSS START*******
+************************************/
+.navbar-brand img {
+    width: 60px;
+    height: auto;
+    margin: 0px ;
+  }
+.navbar-nav .nav-item .nav-link {
+    color: #fff !important;
+    font-size: 1.2rem;
+  }
+  .navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #ffffff !important;
+    border: 1px solid #ffffff !important; 
+    border-radius: .25rem;
+    transition: box-shadow .15s ease-in-out;
+}
+.collapse .btn {
+    background-color: #FB2056 !important;
+    border: none;
+    outline: none;
+    font-size: 1.2rem !important;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin:4px 0px;
+} 
+.hero {
+    width: 100%;
+    padding: 60px 0px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(bgimage/header-bg.jpg) no-repeat center top;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(bgimage/header-bg.jpg) no-repeat center top;
+    background-size: cover;
+  }
+  .hero_content {
+    width: auto;
+    max-width: 900px;
+    min-width: 150px;
+    border-radius: 5px;
+    background-color: rgba(19, 25, 41, 0.8);
+    text-transform: uppercase;
+    font-size:.2rem ;
+}
+.hero_content h1 {
+    color: #fff;
+    padding: 8px 0px;
+    position: relative;
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+  .hero_content h2 {
+    color: #fff;
+    font-weight: 600;
+    padding: 15px 5px;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+  }
+  .hero_content h3 {
+    color: #fff;
+    font-weight: 500;
+    padding: 5px 8px;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+  }
+  .hero_content .date {
+    color: #ECE644;
+    font-weight: 600;
+  }
+  .hero_content .address {
+    font-weight: 600;
+    font-size: 1.4rem;
+    padding: 5px 0px !important;
+  }
+.hero_content .btn {
+    margin: 0px 5px 0px 5px;
+    border: none;
+    outline: none;
+    font-size: 1.4rem !important;
+    padding: 8px 15px;
+    border-radius: 30px;
+  }
+.hero_content .btn {
+    margin: 5px 5px 12px 5px;
+    border: none;
+    outline: none;
+    font-size: 1.2rem !important;
+    padding: 8px 12px;
+    border-radius: 30px;
+  }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+@media (min-width: 320px) and (max-width: 480px) {
+    
+/*********** HEADER CSS START*******
+************************************/
+.navbar-brand img {
+    width: 55px;
+    height: auto;
+    margin: 0px ;
+  }
+.navbar-nav .nav-item .nav-link {
+    color: #fff !important;
+    font-size: 1.2rem;
+  }
+  .navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #ffffff !important;
+    border: 1px solid #ffffff !important; 
+    border-radius: .25rem;
+    transition: box-shadow .15s ease-in-out;
+}
+.collapse .btn {
+    background-color: #FB2056 !important;
+    border: none;
+    outline: none;
+    font-size: 1.2rem !important;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin:4px 0px;
+} 
+.hero {
+    width: 100%;
+    padding: 60px 0px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(bgimage/header-bg.jpg) no-repeat center top;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(bgimage/header-bg.jpg) no-repeat center top;
+    background-size: cover;
+  }
+  .hero_content {
+    width: auto;
+    max-width: 900px;
+    min-width: 150px;
+    border-radius: 5px;
+    background-color: rgba(19, 25, 41, 0.8);
+    text-transform: uppercase;
+    font-size:.2rem ;
+}
+.hero_content h1 {
+    color: #fff;
+    padding: 8px 0px;
+    position: relative;
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+  .hero_content h2 {
+    color: #fff;
+    font-weight: 600;
+    padding: 15px 5px;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+  }
+  .hero_content h3 {
+    color: #fff;
+    font-weight: 500;
+    padding: 5px 0px;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+  }
+  .hero_content .date {
+    color: #ECE644;
+    font-weight: 600;
+  }
+  .hero_content .address {
+    font-weight: 600;
+    font-size: 1.4rem;
+    padding: 5px 0px !important;
+  }
+.hero_content .btn {
+    margin: 0px 5px 0px 5px;
+    border: none;
+    outline: none;
+    font-size: 1.4rem !important;
+    padding: 8px 15px;
+    border-radius: 30px;
+  }
+.hero_content .btn {
+    margin: 5px 5px 8px 5px;
+    border: none;
+    outline: none;
+    font-size: 1.2rem !important;
+    padding: 5px 8px;
+    border-radius: 30px;
+  }
+/************** HEADER CSS END*********
+***************************************/
+
+}
